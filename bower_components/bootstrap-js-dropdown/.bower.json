@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-js-dropdown",
+  "version": "2.2.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": ">1.7.1"
+  },
+  "homepage": "https://github.com/Munter/bootstrap-js-dropdown",
+  "_release": "2.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.1",
+    "commit": "58eb2417c82601d4193fb56ad92cd29e1b540fd8"
+  },
+  "_source": "git://github.com/Munter/bootstrap-js-dropdown.git",
+  "_target": "~2.2.1",
+  "_originalSource": "bootstrap-js-dropdown",
+  "_direct": true
+}
