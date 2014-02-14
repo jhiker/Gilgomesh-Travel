@@ -3,7 +3,7 @@
   <div class='form-container' >
   <div class="gil_bridge" align="center"> 
   <div  class="gilgo" id="headliner">
-       gilGomesh  {{cityvalid}}     {{wander}}
+       gilGomesh  {{wander}}
 
   </div> 
   <div ng-show="window_height>590" ng-if="searched==0" class="con_title"> IS <br> 
@@ -69,8 +69,9 @@
         </button>
       </form>
       <div id="slider">
-      Level of Wandrin': <br>
-      <input type="text" slider class="slider span1" value="50" ng-model="wander"> 
+      <b>Wandrin' Level</b> <br>
+      <slider model="teste2" type="text" class="span2" value="5" data-slider-min="0" data-slider-max="5" data-slider-step="1" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
+      </slider>
       </div>
       <button type="submit" id="forward-btn" class="btn btn-success">
         <i class="glyphicon glyphicon-ok-sign"> </i>
